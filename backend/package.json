@@ -1,0 +1,18 @@
+{
+  "name": "backend-vacations-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cron": "^1.5.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0",
+    "promise-mysql": "^3.3.1",
+    "socket.io": "^2.1.1",
+    "socket.io-cookie-parser": "^1.0.0"
+  }
+}
